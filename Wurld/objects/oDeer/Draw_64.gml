@@ -40,7 +40,7 @@ draw_sprite(sHearth, 0, 100+50*i, 200);
 
 if instance_exists(oHuman)
 {
-	if distance_to_object(oHuman)<=75
+	if distance_to_object(oHuman)<=30
 	draw_sprite_ext(sWarning, 1, 100, display_get_gui_height()/2, 2*warningscale, 2*warningscale, 0, c_white, 1);
 }
 
