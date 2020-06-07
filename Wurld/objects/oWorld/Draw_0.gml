@@ -1,0 +1,2 @@
+draw_self();
+draw_text(room_width/2-string_width("Download Revenge of The Deer second game")/2, room_height/2-string_height("Download Revenge of The Deer second game")/2, "Download Revenge of The Deer second game");

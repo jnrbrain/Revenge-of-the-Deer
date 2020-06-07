@@ -1,0 +1,1 @@
+global.zemin=490;

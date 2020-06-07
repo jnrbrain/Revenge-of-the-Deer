@@ -1,0 +1,14 @@
+draw_set_font(font0);
+draw_set_color(c_yellow);
+draw_text(room_width/2-string_width("-DEVELOPERS-")/2, y, "-DEVELOPERS-");
+draw_set_color(c_white);
+draw_text(room_width/2-string_width("Said ULUDAG")/2, y+50, "Said ULUDAG");
+draw_set_color(c_yellow);
+draw_text(room_width/2-string_width("-MODELLING and SOURCE-")/2, y+250, "-MODELLING and SOURCE-");
+draw_set_color(c_white);
+draw_text(room_width/2-string_width("Pamir YASTI")/2, y+300, "Pamir YASTI");
+draw_text(room_width/2-string_width("Batuhan AYYILDIZ")/2, y+345, "Batuhan AYYILDIZ");
+draw_text(room_width/2-string_width("Mesut IKTU")/2, y+390, "Mesut IKTU"); 
+draw_text(room_width/2-string_width("Arda Gokmen GUNDOGAN")/2, y+435, "Arda Gokmen GUNDOGAN");
+draw_set_color(c_yellow);
+draw_text(room_width/2-string_width("Version  "+string(GM_version))/2, y+500, "Version "+string(GM_version));
