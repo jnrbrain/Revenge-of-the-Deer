@@ -14,5 +14,7 @@ audio_stop_all();
 
 if room==rMainMenu
 	audio_play_sound(main_music, 0, 0);
+if room==rCredits
+	audio_play_sound(End_sound, 0, 0);
 if room==room0 or room==room1
 	audio_play_sound(main_music, 0, true);

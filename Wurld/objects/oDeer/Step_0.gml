@@ -80,8 +80,6 @@ else if status==1
 	x+=hsp_walk;
 	if image_speed!=1 and image_index<image_number-1
 	{
-		if !audio_is_playing(deerjump)
-		audio_play_sound(deerjump, 0, 0);
 		image_speed=1;
 	}
 	if sprite_index!=deer_jump
